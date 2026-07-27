@@ -7,8 +7,8 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-@app.route("/resume")
-def resume():
+@app.route("/download")
+def download():
     return send_from_directory(
         os.path.join(app.root_path, "static"),
         "MY_RESUME.pdf",

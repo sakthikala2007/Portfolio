@@ -1,222 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Sakthikala S | Portfolio</title>
+    <title>SAKTHIKALA S | Portfolio</title>
 
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Correct CSS path for GitHub Pages -->
+    <link rel="stylesheet" href="./static/style.css">
 
 </head>
+
 
 <body>
 
 <header>
 
-<h1>RESUME PORTFOLIO</h1>
+    <nav>
 
-<h2>SAKTHIKALA S</h2>
+        <h2 class="logo">PORTFOLIO</h2>
 
-<p>B.Tech Artificial Intelligence & Data Science Student</p>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 
-<p>Python | Java | HTML | CSS | Flask | SQLite</p>
-
-<a href="MY_RESUME.pdf" class="btn" target="_blank">
-📄 Download Resume
-</a>
+    </nav>
 
 </header>
 
-<nav>
 
-<a href="#about">About</a>
 
-<a href="#education">Education</a>
+<!-- HOME SECTION -->
 
-<a href="#skills">Skills</a>
+<section id="home" class="hero">
 
-<a href="#projects">Projects</a>
+    <div class="hero-content">
 
-<a href="#activities">Achievements</a>
+        <h1>
+            <span>SAKTHIKALA S</span>
+        </h1>
 
-<a href="#contact">Contact</a>
 
-</nav>
+        <h2>
+            Artificial Intelligence & Data Science Student
+        </h2>
+
+
+        <p>
+            Passionate AI & Data Science student interested in
+            Machine Learning, Web Development and innovative projects.
+        </p>
+
+
+
+        <!-- Resume PDF inside static folder -->
+
+        <a href="./static/MY_RESUME.pdf" 
+           class="btn" 
+           download>
+
+            Download Resume
+
+        </a>
+
+
+    </div>
+
+</section>
+
+
+
+
+
+<!-- ABOUT SECTION -->
 
 <section id="about">
 
-<div class="card">
+    <h2 class="title">
+        About Me
+    </h2>
 
-<h2>About Me</h2>
 
-<p>
-I am a B.Tech Artificial Intelligence and Data Science student at
-J.P. College of Engineering. I am passionate about Artificial Intelligence,
-Web Development, Python Programming and building innovative software solutions.
-</p>
+    <p class="content">
 
-</div>
+        I am an Artificial Intelligence and Data Science engineering
+        student passionate about developing intelligent applications
+        and solving real-world problems.
 
-</section>
+        I have experience in Python, Java, HTML, CSS, Flask,
+        Machine Learning and Data Analysis.
 
-<section id="education">
+    </p>
 
-<div class="card">
-
-<h2>Education</h2>
-
-<ul>
-
-<li>
-<strong>B.Tech Artificial Intelligence & Data Science</strong><br>
-J.P. College of Engineering<br>
-2024 - Present
-</li>
-
-<br>
-
-<li>
-<strong>Higher Secondary</strong><br>
-Chatram Bharathi Higher Secondary School
-</li>
-
-<br>
-
-<li>
-<strong>SSLC</strong><br>
-Chatram Bharathi Girls High School
-</li>
-
-</ul>
-
-</div>
 
 </section>
+
+
+
+
+
+
+
+<!-- SKILLS SECTION -->
 
 <section id="skills">
 
+<h2 class="title">
+    Skills
+</h2>
+
+
+<div class="cards">
+
+
 <div class="card">
 
-<h2>Technical Skills</h2>
+<h3>
+    Programming
+</h3>
 
-<ul>
-
-<li>Python</li>
-
-<li>Java</li>
-
-<li>C++</li>
-
-<li>HTML5</li>
-
-<li>CSS3</li>
-
-<li>Flask</li>
-
-<li>SQLite</li>
-
-<li>Git & GitHub</li>
-
-<li>MS Office</li>
-
-<li>DCA Certified</li>
-
-</ul>
+<p>
+    Python<br>
+    Java<br>
+    SQL
+</p>
 
 </div>
 
+
+
+
+<div class="card">
+
+<h3>
+    Web Development
+</h3>
+
+<p>
+    HTML<br>
+    CSS<br>
+    JavaScript<br>
+    Flask
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>
+    AI & Data Science
+</h3>
+
+<p>
+    Machine Learning<br>
+    Data Analysis<br>
+    Neural Networks
+</p>
+
+</div>
+
+
+
+</div>
+
+
 </section>
+
+
+
+
+
+
+
+
+<!-- PROJECT SECTION -->
+
 
 <section id="projects">
 
-<div class="card">
 
-<h2>Projects</h2>
+<h2 class="title">
+    Projects
+</h2>
 
-<h3>Public Complaint System</h3>
 
-<p>
-Developed a complaint management web application using Flask and SQLite.
-</p>
 
-<h3>Resume Builder</h3>
+<div class="cards">
 
-<p>
-Created a professional resume generator using HTML, CSS and JavaScript.
-</p>
 
-<h3>Digest Detection</h3>
-
-<p>
-Android application for detecting and analyzing file digests through image processing.
-</p>
-
-</div>
-
-</section>
-
-<section id="activities">
 
 <div class="card">
 
-<h2>Achievements</h2>
+<h3>
+    Public Complaint System
+</h3>
 
-<ul>
 
-<li>Presented a Research Paper at ICET²-CS Conference.</li>
+<p>
+    Flask based web application that allows citizens
+    to submit complaints and helps authorities monitor
+    solutions efficiently.
+</p>
 
-<li>Paper Presentation - Tech Olympics'25.</li>
-
-<li>Participated in Hackathons and Technical Events.</li>
-
-</ul>
 
 </div>
 
+
+
+
+
+<div class="card">
+
+<h3>
+    Resume Builder
+</h3>
+
+
+<p>
+    Web application that creates professional resumes
+    and downloads them as PDF.
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>
+    Music Streaming App
+</h3>
+
+
+<p>
+    Modern music platform interface with creative UI
+    and interactive design.
+</p>
+
+
+</div>
+
+
+
+</div>
+
+
 </section>
+
+
+
+
+
+
+
+
+
+<!-- CONTACT SECTION -->
+
 
 <section id="contact">
 
-<div class="card">
 
-<h2>Contact</h2>
+<h2 class="title">
+    Contact
+</h2>
 
-<p><b>Email:</b> ssakthikala2007@gmail.com</p>
 
-<p><b>Phone:</b> +91 7604929902</p>
 
-<p><b>Location:</b> Tenkasi, Tamil Nadu</p>
+<p class="content">
 
-<p>
+Email:
+<br>
+ssakthikala2007@gmail.com
 
-<b>GitHub:</b>
+<br><br>
 
-<a href="https://github.com/sakthikala2007" target="_blank">
+GitHub:
+<br>
 github.com/sakthikala2007
-</a>
+
 
 </p>
 
-<p>
-
-<b>LinkedIn:</b>
-
-<a href="https://www.linkedin.com/" target="_blank">
-View Profile
-</a>
-
-</p>
-
-</div>
 
 </section>
 
+
+
+
+
+
+
 <footer>
 
-<p>© 2026 Sakthikala S | All Rights Reserved</p>
+<p>
+© 2026 Sakthikala S | AI & Data Science Portfolio
+</p>
+
 
 </footer>
 
+
+
 </body>
+
 </html>
