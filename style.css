@@ -1,0 +1,261 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+
+body{
+
+    background:#050505;
+    color:white;
+
+}
+
+
+header{
+
+    background:#000;
+    padding:20px 8%;
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:100;
+
+}
+
+
+nav{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+
+.logo{
+
+    color:#d4af37;
+    font-size:28px;
+    letter-spacing:3px;
+
+}
+
+
+nav ul{
+
+    display:flex;
+    list-style:none;
+    gap:30px;
+
+}
+
+
+nav ul li a{
+
+    text-decoration:none;
+    color:white;
+    font-size:17px;
+
+}
+
+
+nav ul li a:hover{
+
+    color:#d4af37;
+
+}
+
+
+
+
+.hero{
+
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.9)
+    );
+
+}
+
+
+
+.hero h1{
+
+    font-size:55px;
+
+}
+
+
+.hero span{
+
+    color:#d4af37;
+
+}
+
+
+.hero h2{
+
+    margin:20px;
+    color:#ddd;
+
+}
+
+
+.hero p{
+
+    width:600px;
+    max-width:90%;
+    margin:auto;
+    font-size:18px;
+
+}
+
+
+
+.btn{
+
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 35px;
+
+    background:#d4af37;
+    color:black;
+
+    text-decoration:none;
+    font-weight:bold;
+
+    border-radius:30px;
+
+}
+
+
+.btn:hover{
+
+    background:white;
+
+}
+
+
+
+
+section{
+
+    padding:80px 10%;
+
+}
+
+
+.title{
+
+    text-align:center;
+    color:#d4af37;
+    font-size:35px;
+    margin-bottom:40px;
+
+}
+
+
+
+.content{
+
+    text-align:center;
+    line-height:1.8;
+    font-size:18px;
+
+}
+
+
+
+
+.cards{
+
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+
+}
+
+
+
+.card{
+
+    width:300px;
+    padding:30px;
+
+    background:#111;
+
+    border:1px solid #d4af37;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+
+
+.card h3{
+
+    color:#d4af37;
+    margin-bottom:15px;
+
+}
+
+
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 0 20px #d4af37;
+
+}
+
+
+
+
+footer{
+
+    background:#000;
+
+    text-align:center;
+
+    padding:20px;
+
+    color:#d4af37;
+
+}
+
+
+
+@media(max-width:700px){
+
+nav ul{
+
+display:none;
+
+}
+
+
+.hero h1{
+
+font-size:35px;
+
+}
+
+
+}
